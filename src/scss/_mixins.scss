@@ -1,0 +1,11 @@
+@mixin textCenter {
+  border-top-width: 0;
+	border-right-width: 0;
+	border-bottom-width: 0;
+	border-left-width: 0;
+	-webkit-border-horizontal-spacing: 0;
+	-webkit-border-vertical-spacing: 0;
+	margin-inline-start: auto;
+	margin-inline-end: auto;
+	margin-top: 10px;
+}

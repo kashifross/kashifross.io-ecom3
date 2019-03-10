@@ -1,0 +1,90 @@
+body {
+	margin: 0;
+	background-color: $color-gray-light;
+	color: $color-black;
+}
+
+.header {
+	@include textCenter;
+	
+	&__logo {
+		font-family: 'Hi Melody', cursive;
+		font-weight: 500;
+		font-size: 70px;
+		color: $color-black;
+		display: table-cell;
+    vertical-align: inherit;
+	}
+}
+
+.container {
+	@include textCenter;
+	border-color: transparent;
+	border: none;
+	border: 0;
+	border-collapse: collapse;
+	vertical-align: bottom;
+	margin: 0;
+	width: 600px;
+	font-family: 'Roboto', sans-serif;
+
+	&__nav {
+		background-color: $color-primary;
+		display: block;
+		margin: 0;
+		border: none;
+		border: 0;
+		border-collapse: collapse;
+
+		&--cell {
+			text-align: -webkit-center;
+			vertical-align: top;
+			display: table-cell;
+		}
+
+		&--text {
+		
+			&:link,
+			&:active {
+			color: white !important;
+			padding-left: 100px;
+			text-decoration: none;
+			font-size: 18px;
+			}
+		}
+	}
+}
+
+td img {
+	display: block;
+}
+.is-parent-wrapper {
+	background: white;
+}
+
+
+.outer-container {
+	width: $outerWidth;
+}
+
+.body-gutter {
+	width: $bodyGutter;
+}
+.inner-container {
+	width: 600px - $calcGutter;
+
+	h1 {
+		color: #343434;
+		text-transform: uppercase;
+	}
+
+	p {
+		line-height: 28px;
+
+	}
+}
+
+.spacer {
+	height: $spacer;
+	td { height: $spacer; }
+}
