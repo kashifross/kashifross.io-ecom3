@@ -1,31 +1,20 @@
-.title {
-	width: 180px;
-	color: white;
-}
-.inBrowser {
-	width: 120px;
-}
+.navigation {
+	background-color: $color-gray-light;
+	border-spacing: 0px;
+	border-color: transparent;
+	border: 0px;
+	border-collapse: collapse;
+	vertical-align: bottom;
+	margin: 0;
+	display: table;
 
-.nav {
-	background: #B09762;
+	&__table {
+		width: 100%;
 
-	.gap {
-		width: 340 - 40px;
-	}
+		&--text {
+			padding: 15px 10px;
+			text-align: -webkit-center;
 
-	a {
-		color: white;
-	}
-}
-
-.nav-gutter {
-	width: $gutterSmall;
-}
-
-.nav-height {
-	height: 20px;
-
-	td {
-		height: 20px;
+		}
 	}
 }
