@@ -14,8 +14,8 @@
       text-align: -webkit-center; }
 
 .cta {
-  display: block;
-  width: 100%; }
+  width: 100%;
+  padding: 10px; }
 
 body {
   margin: 0;
@@ -78,9 +78,19 @@ body {
     text-align: -webkit-center; }
 
 .coupon-left {
-  padding: 100px 42px; }
+  padding: 125px 42px; }
   .coupon-left--heading {
     font-size: 20px; }
   .coupon-left--para {
     font-size: 14px;
     color: #4c4c4c; }
+
+.coupon-right__cell {
+  padding: 25px 10px 25px 0; }
+
+.footer {
+  border-top: 1px solid #f172a1;
+  display: block;
+  font-size: 14px; }
+  .footer--col {
+    padding: 0 3px; }
