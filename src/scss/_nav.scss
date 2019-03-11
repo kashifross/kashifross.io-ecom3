@@ -1,5 +1,4 @@
 .navigation {
-	background-color: $color-gray-light;
 	border-spacing: 0px;
 	border-color: transparent;
 	border: 0px;
@@ -12,9 +11,14 @@
 		width: 100%;
 
 		&--text {
-			padding: 15px 10px;
+			padding: 15px 35px;
+			text-align: center;
 			text-align: -webkit-center;
-
 		}
 	}
+}
+
+.cta {
+	display: block;
+	width: 100%;
 }

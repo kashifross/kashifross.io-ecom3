@@ -1,12 +1,12 @@
 body {
 	margin: 0;
-	background-color: $color-gray-light;
 	color: $color-black;
 	font-family: 'Roboto', sans-serif;
 }
 
 .container {
 	width: 600px;
+	background-color: $color-primary-light;
 }
 
 .header {
@@ -24,7 +24,7 @@ body {
 		font-weight: 500;
 		font-size: 70px;
 		color: $color-black;
-		
+		// center
 		display: table-cell;
 		vertical-align: inherit;
 		text-align: center;
@@ -32,55 +32,61 @@ body {
 	}
 }
 
-table {
+.welcome {
+	width: $outerWidth;
+	padding-bottom: 25px;
+
+	&--gutter {
+		width: $spacer;
+	}
+
+	&__container {
+		width: 600px - $calcGutter;
+
+		&--heading {
+			font-weight: 700;
+			font-size: 30px;
+
+			&-pynk {
+				color: $color-primary;
+			}
+
+			&-link {
+				text-align: -webkit-center;
+				display: table-cell;
+				vertical-align: inherit;
+			}
+		}
+	}
+}
+
+.link {
 	border-spacing: 0px;
 	border-color: transparent;
-	border: none;
-	border: 0px;
-	border-collapse: collapse;
+	border-top: 1px solid $color-primary;
+	border-bottom: 1px solid $color-primary;
+	padding: 10px 0;
 	vertical-align: bottom;
 	margin: 0;
-}
+	width: 100%;
 
-td {
-	margin: 0;
-	border-spacing: 0px;
-	border-color: transparent;
-	border: none;
-	border: 0px;
-	border-collapse: collapse;
-	vertical-align: bottom; 
-}
-td img {
-	display: block;
-}
-.is-parent-wrapper {
-	background: white;
-}
-
-
-.outer-container {
-	width: $outerWidth;
-}
-
-.body-gutter {
-	width: $bodyGutter;
-}
-.inner-container {
-	width: 600px - $calcGutter;
-
-	h1 {
-		color: #343434;
-		text-transform: uppercase;
-	}
-
-	p {
-		line-height: 28px;
-
+	&__center {
+		display: table-cell;
+		vertical-align: inherit;
+		text-align: center;
+		text-align: -webkit-center;
 	}
 }
 
-.spacer {
-	height: $spacer;
-	td { height: $spacer; }
+.coupon-left {
+	padding: 100px 42px;
+
+	&--heading {
+		font-size: 20px;
+	}
+
+	&--para {
+		font-size: 14px;
+		color: $color-gray;
+	}
 }

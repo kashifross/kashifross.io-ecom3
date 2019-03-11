@@ -1,5 +1,4 @@
 .navigation {
-  background-color: #f2eff5;
   border-spacing: 0px;
   border-color: transparent;
   border: 0px;
@@ -10,17 +9,22 @@
   .navigation__table {
     width: 100%; }
     .navigation__table--text {
-      padding: 15px 10px;
+      padding: 15px 35px;
+      text-align: center;
       text-align: -webkit-center; }
+
+.cta {
+  display: block;
+  width: 100%; }
 
 body {
   margin: 0;
-  background-color: #f2eff5;
   color: #191919;
   font-family: 'Roboto', sans-serif; }
 
 .container {
-  width: 600px; }
+  width: 600px;
+  background-color: #f2eff5; }
 
 .header {
   border-spacing: 0px;
@@ -41,45 +45,42 @@ body {
     text-align: center;
     text-align: -webkit-center; }
 
-table {
+.welcome {
+  width: 600px;
+  padding-bottom: 25px; }
+  .welcome--gutter {
+    width: 40px; }
+  .welcome__container {
+    width: 520px; }
+    .welcome__container--heading {
+      font-weight: 700;
+      font-size: 30px; }
+      .welcome__container--heading-pynk {
+        color: #f172a1; }
+      .welcome__container--heading-link {
+        text-align: -webkit-center;
+        display: table-cell;
+        vertical-align: inherit; }
+
+.link {
   border-spacing: 0px;
   border-color: transparent;
-  border: none;
-  border: 0px;
-  border-collapse: collapse;
+  border-top: 1px solid #f172a1;
+  border-bottom: 1px solid #f172a1;
+  padding: 10px 0;
   vertical-align: bottom;
-  margin: 0; }
-
-td {
   margin: 0;
-  border-spacing: 0px;
-  border-color: transparent;
-  border: none;
-  border: 0px;
-  border-collapse: collapse;
-  vertical-align: bottom; }
+  width: 100%; }
+  .link__center {
+    display: table-cell;
+    vertical-align: inherit;
+    text-align: center;
+    text-align: -webkit-center; }
 
-td img {
-  display: block; }
-
-.is-parent-wrapper {
-  background: white; }
-
-.outer-container {
-  width: 600px; }
-
-.body-gutter {
-  width: 50px; }
-
-.inner-container {
-  width: 500px; }
-  .inner-container h1 {
-    color: #343434;
-    text-transform: uppercase; }
-  .inner-container p {
-    line-height: 28px; }
-
-.spacer {
-  height: 40px; }
-  .spacer td {
-    height: 40px; }
+.coupon-left {
+  padding: 100px 42px; }
+  .coupon-left--heading {
+    font-size: 20px; }
+  .coupon-left--para {
+    font-size: 14px;
+    color: #4c4c4c; }
