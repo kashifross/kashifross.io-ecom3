@@ -1,97 +1,18 @@
 body {
 	margin: 0;
+	background-color: #f2eff5;
 	color: $color-black;
-	font-family: 'Roboto', sans-serif;
-}
-
-.container {
-	width: 600px;
-	background-color: $color-primary-light;
 }
 
 .header {
-
+	@include textCenter;
+	
 	&__logo {
 		font-family: 'Hi Melody', cursive;
 		font-weight: 500;
 		font-size: 70px;
 		color: $color-black;
-	}
-}
-
-.welcome {
-	width: $outerWidth;
-	padding-bottom: 25px;
-	text-align: center;
-
-	&--gutter {
-		width: $spacer;
-	}
-
-	&__container {
-		width: 100%;
-
-		&--heading {
-			font-weight: 700;
-			font-size: 40px;
-
-			&-para {
-				font-size: 28px;
-			}
-
-			&-pynk {
-				color: $color-primary;
-			}
-
-			&-link {
-				text-align: -webkit-center;
-				display: table-cell;
-				vertical-align: inherit;
-			}
-		}
-	}
-}
-
-.link {
-	border-spacing: 0px;
-	border-color: transparent;
-	border-top: 1px solid $color-primary;
-	border-bottom: 1px solid $color-primary;
-	padding: 10px 0;
-	vertical-align: bottom;
-	margin: 0;
-	width: 100%;
-	font-size: 28px;
-
-	&__center {
 		display: table-cell;
-		vertical-align: inherit;
-		text-align: center;
-		text-align: -webkit-center;
+    vertical-align: inherit;
 	}
-}
-
-.coupon-left {
-	padding: 100px 42px 20px 42px;
-
-	&--heading {
-		font-size: 34px;
-	}
-
-	&--para {
-		font-size: 28px;
-		color: $color-gray;
-	}
-}
-
-.coupon-right {
-	&__cell {
-		padding: 15px 10px 25px 0;
-	}
-}
-
-.footer {
-	border-top: 1px solid $color-primary;
-	display: block;
-	font-size: 16px;
 }

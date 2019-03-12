@@ -1,25 +1,7 @@
 .navigation {
-	border-spacing: 0px;
-	border-color: transparent;
-	border: 0px;
-	border-collapse: collapse;
-	vertical-align: bottom;
-	margin: 0;
+	background-color: pink;
 	display: table;
-
-	&__table {
-		width: 100%;
-
-		&--text {
-			padding: 15px 35px;
-			text-align: center;
-			text-align: -webkit-center;
-			font-size: 28px;
-		}
-	}
-}
-
-.cta {
-	width: 100%;
-	padding: 10px;
+  border-collapse: separate;
+	-webkit-border-horizontal-spacing: 0px;
+	-webkit-border-vertical-spacing: 0px;
 }
