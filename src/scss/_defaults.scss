@@ -10,42 +10,34 @@ body {
 }
 
 .header {
-	border-spacing: 0px;
-	border-color: transparent;
-	border: none;
-	border: 0px;
-	border-collapse: collapse;
-	vertical-align: bottom;
-	margin: 0;
-	width: 100%;
 
 	&__logo {
 		font-family: 'Hi Melody', cursive;
 		font-weight: 500;
 		font-size: 70px;
 		color: $color-black;
-		// center
-		display: table-cell;
-		vertical-align: inherit;
-		text-align: center;
-		text-align: -webkit-center;
 	}
 }
 
 .welcome {
 	width: $outerWidth;
 	padding-bottom: 25px;
+	text-align: center;
 
 	&--gutter {
 		width: $spacer;
 	}
 
 	&__container {
-		width: 600px - $calcGutter;
+		width: 100%;
 
 		&--heading {
 			font-weight: 700;
-			font-size: 30px;
+			font-size: 40px;
+
+			&-para {
+				font-size: 28px;
+			}
 
 			&-pynk {
 				color: $color-primary;
@@ -69,6 +61,7 @@ body {
 	vertical-align: bottom;
 	margin: 0;
 	width: 100%;
+	font-size: 28px;
 
 	&__center {
 		display: table-cell;
@@ -79,30 +72,26 @@ body {
 }
 
 .coupon-left {
-	padding: 125px 42px;
+	padding: 100px 42px 20px 42px;
 
 	&--heading {
-		font-size: 20px;
+		font-size: 34px;
 	}
 
 	&--para {
-		font-size: 14px;
+		font-size: 28px;
 		color: $color-gray;
 	}
 }
 
 .coupon-right {
 	&__cell {
-		padding: 25px 10px 25px 0;
+		padding: 15px 10px 25px 0;
 	}
 }
 
 .footer {
 	border-top: 1px solid $color-primary;
 	display: block;
-	font-size: 14px;
-
-	&--col {
-		padding: 0 3px;
-	}
+	font-size: 16px;
 }

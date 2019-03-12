@@ -11,7 +11,8 @@
     .navigation__table--text {
       padding: 15px 35px;
       text-align: center;
-      text-align: -webkit-center; }
+      text-align: -webkit-center;
+      font-size: 28px; }
 
 .cta {
   width: 100%;
@@ -26,35 +27,25 @@ body {
   width: 600px;
   background-color: #f2eff5; }
 
-.header {
-  border-spacing: 0px;
-  border-color: transparent;
-  border: none;
-  border: 0px;
-  border-collapse: collapse;
-  vertical-align: bottom;
-  margin: 0;
-  width: 100%; }
-  .header__logo {
-    font-family: 'Hi Melody', cursive;
-    font-weight: 500;
-    font-size: 70px;
-    color: #191919;
-    display: table-cell;
-    vertical-align: inherit;
-    text-align: center;
-    text-align: -webkit-center; }
+.header__logo {
+  font-family: 'Hi Melody', cursive;
+  font-weight: 500;
+  font-size: 70px;
+  color: #191919; }
 
 .welcome {
   width: 600px;
-  padding-bottom: 25px; }
+  padding-bottom: 25px;
+  text-align: center; }
   .welcome--gutter {
     width: 40px; }
   .welcome__container {
-    width: 520px; }
+    width: 100%; }
     .welcome__container--heading {
       font-weight: 700;
-      font-size: 30px; }
+      font-size: 40px; }
+      .welcome__container--heading-para {
+        font-size: 28px; }
       .welcome__container--heading-pynk {
         color: #f172a1; }
       .welcome__container--heading-link {
@@ -70,7 +61,8 @@ body {
   padding: 10px 0;
   vertical-align: bottom;
   margin: 0;
-  width: 100%; }
+  width: 100%;
+  font-size: 28px; }
   .link__center {
     display: table-cell;
     vertical-align: inherit;
@@ -78,19 +70,17 @@ body {
     text-align: -webkit-center; }
 
 .coupon-left {
-  padding: 125px 42px; }
+  padding: 100px 42px 20px 42px; }
   .coupon-left--heading {
-    font-size: 20px; }
+    font-size: 34px; }
   .coupon-left--para {
-    font-size: 14px;
+    font-size: 28px;
     color: #4c4c4c; }
 
 .coupon-right__cell {
-  padding: 25px 10px 25px 0; }
+  padding: 15px 10px 25px 0; }
 
 .footer {
   border-top: 1px solid #f172a1;
   display: block;
-  font-size: 14px; }
-  .footer--col {
-    padding: 0 3px; }
+  font-size: 16px; }
